@@ -60,9 +60,9 @@ with open('benchmark.json') as f:
 
             if data[i]['questions'][j]['answer'] == int(response.text):
                 correct_answers += 1
-
-            # print("> " + prompt)
-            # print(data[i]['questions'][j]['answer'], response.text)
+            else:
+                print("> " + prompt)
+                print(data[i]['questions'][j]['answer'], response.text)
 accuracy = correct_answers * 100 / total_questions
 
 # print 2 digit after decimal point

@@ -44,7 +44,7 @@
 
         {
           "name": "Bikash Paribahan",
-          "route": "Sign Board ⇄ Matuail ⇄ Rayerbag ⇄ Shonir Akhra ⇄ Jatrabari ⇄ Sayedabad ⇄ Gulistan ⇄ Chankhar Pul ⇄ Bakshi Bazar ⇄ Azimpur ⇄ Nilkhet ⇄ New Market ⇄ City College ⇄ Kalabagan ⇄ Dhanmondi 32 ⇄ Dhanmondi 27 ⇄ Khamar Bari ⇄ Farmgate ⇄ Jahangir Gate ⇄ Mohakhali ⇄ Chairman Bari ⇄ Sainik Club ⇄ Banani ⇄ Kakali ⇄ Staff Road ⇄ MES ⇄ Shewra ⇄ Kuril Bishwa Road ⇄ Khilkhet ⇄ Airport ⇄ Jashimuddin (Uttara) ⇄ Rajlakshmi ⇄ Azampur ⇄ House Building ⇄ Abdullahpur ⇄ Kamarpara – Dhour",
+          "route": "Sign Board ⇄ Matuail ⇄ Rayerbag ⇄ Shonir Akhra ⇄ Jatrabari ⇄ Sayedabad ⇄ Gulistan ⇄ Chankhar Pul ⇄ Bakshi Bazar ⇄ Azimpur ⇄ Nilkhet ⇄ New Market ⇄ City College ⇄ Kalabagan ⇄ Dhanmondi 32 ⇄ Dhanmondi 27 ⇄ Khamar Bari ⇄ Farmgate ⇄ Jahangir Gate ⇄ Mohakhali ⇄ Chairman Bari ⇄ Shainik Club ⇄ Banani ⇄ Kakali ⇄ Staff Road ⇄ MES ⇄ Shewra ⇄ Kuril Bishwa Road ⇄ Khilkhet ⇄ Airport ⇄ Jashimuddin (Uttara) ⇄ Rajlakshmi ⇄ Azampur ⇄ House Building ⇄ Abdullahpur ⇄ Kamarpara – Dhour",
           "url": "https://nishiddho.com/bikash-paribahan-bus-route-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B8/#google_vignette"
         },
         {
@@ -63,6 +63,79 @@
           "VIP 27 and Bikash Paribahan"
         ],
         "answer": 3
+      },
+      {
+        "statement": "What are the common stops between Mirpur 10 and Dhanmondi 32 for the 'Safety Druti' and 'VIP 27' buses?",
+        "options": [
+          "Mirpur 10, Mirpur 11, Mirpur 12, Pallabi, Purobi, Kazipara, Shewrapara, Taltola, Agargaon, Khamar Bari, Dhanmondi 27, Dhanmondi 32",
+          "Khamarbari, Dhanmondi 27, Dhanmondi 32",
+          "Mohakhali, Jahanir Gate, Farmgate, Khamarbari, Dhanmondi 27, Dhanmondi 32",
+          "Khamarbari, Dhanmondi 27, Dhanmondi 32, Kalabagan, City College, New Market, Nilkhet, Azimpur"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Which bus passes through Shainik Club and Board Bazar?",
+        "options": ["Bikash Paribahan", "Safety Druti", "VIP 27"],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "context": {
+      "home": {
+        "location_name": "Home",
+        "address": "House 38/1 (3rd Floor, Indira Rd, Dhaka 1215)",
+        "coordinates": {
+          "latitude": 23.75638061741025,
+          "longitude": 90.38461262559458
+        }
+      },
+      "raiyan_cold_coffee": {
+        "location_name": "Raiyan Cold Coffee",
+        "address": "Q95Q+734, Dhaka 1205",
+        "rating": 4.1,
+        "total_rating": 36,
+        "coordinates": {
+          "latitude": 23.75813666924257,
+          "longitude": 90.38770449127793
+        },
+        "url": "https://maps.app.goo.gl/2MrFxammSzTW38r1A"
+      },
+      "shaheen_tea_stall": {
+        "location_name": "Shaheen Tea Stall",
+        "address": "Q95P+P86, Dhaka 1215",
+        "rating": 4.0,
+        "total_rating": 2,
+        "coordinates": {
+          "latitude": 23.759295692326944,
+          "longitude": 90.38567551158795
+        },
+        "url": "https://maps.app.goo.gl/JqMkwsa1gZpMAdGd8"
+      },
+      "cafe_oasis": {
+        "location_name": "Cafe Oasis",
+        "address": "West Panthapath, East Side Of Square Hospital ltd Dhaka, 1215",
+        "rating": 4.3,
+        "total_rating": 10,
+        "coordinates": {
+          "latitude": 23.753214850354095,
+          "longitude": 90.38262171830466
+        },
+        "url": "https://maps.app.goo.gl/KwnMzc2oQ3xw37uY9"
+      }
+    },
+    "questions": [
+      {
+        "statement": "Nearest coffee shop from home",
+        "options": ["Raiyan Cold Coffee", "Shaheen Tea Stall", "Cafe Oasis"],
+        "answer": 2,
+        "explanation": "Distance from home to Raiyan Cold Coffee: 382.96 m. Distance from home to Shaheen Tea Stall: 351.45 m. Distance from home to Cafe oasis: 406.65 m. So, Shaheen Tea Stall is closer to home."
+      },
+      {
+        "statement": "Best (Based on rating) coffee shop in 400m radius from home",
+        "options": ["Shaheen Tea Stall", "Raiyan Cold Coffee", "Cafe Oasis"],
+        "answer": 2
       }
     ]
   },
