@@ -1,0 +1,476 @@
+[
+  {
+    "context": {
+      "bus_routes": [
+        "Azimpur ⇄ Nilkhet ⇄ New Market ⇄ City College ⇄ Kalabagan ⇄ Dhanmondi 32 ⇄ Dhanmondi 27 ⇄ Khamarbari"
+      ]
+    },
+    "questions": [
+      {
+        "statement": "How many bus stops are there in total from Nilkhet to Khamarbari?",
+        "options": ["3", "4", "5", "6"],
+        "answer": 4
+      },
+      {
+        "statement": "When going from Nilkhet to Dhanmondi 32, which bus stops will I pass through?",
+        "options": ["Azimpur", "Khamarbari", "New Market", "Dhanmondi 27"],
+        "answer": 3
+      },
+      {
+        "statement": "What is the first bus stop I will encounter when traveling from Azimpur to Dhanmondi 32?",
+        "options": ["Nilkhet", "New Market", "Dhanmondi 32", "Khamarbari"],
+        "answer": 1
+      },
+      {
+        "statement": "Which bus stop follows City College when heading from Nilkhet to Dhanmondi 32?",
+        "options": ["New Market", "Khamarbari", "Dhanmondi 27", "Kalabagan"],
+        "answer": 4
+      },
+      {
+        "statement": "Is New Market on the route between Dhanmondi 27 and Khamarbari?",
+        "options": ["Yes", "No"],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "context": {
+      "buses": [
+        {
+          "name": "VIP 27",
+          "route": "Azimpur ⇄ Nilkhet ⇄ New Market ⇄ City College ⇄ Kalabagan ⇄ Dhanmondi 32 ⇄ Dhanmondi 27 ⇄ Khamarbari ⇄ Farmgate ⇄ Jahangir Gate ⇄ Mohakhali ⇄ Shainik Club ⇄ Banani ⇄ Kakoli ⇄ Staff Road ⇄ MES ⇄ Shewra Bazar ⇄ Kuril Bishwa Road ⇄ Khilkhet ⇄ Airport ⇄ Jashimuddin ⇄ Rajlakshmi ⇄ Azampur ⇄ House Building ⇄ Abdullahpur ⇄ Tongi ⇄ Station Road ⇄ Mill Gate ⇄ Board Bazar ⇄ Gazipur Chowrasta",
+          "url": "https://nishiddho.com/vip-27-bus-route-%E0%A6%AD%E0%A6%BF%E0%A6%86%E0%A6%87%E0%A6%AA%E0%A6%BF-%E0%A7%A8%E0%A7%AD-%E0%A6%AC%E0%A6%BE%E0%A6%B8/"
+        },
+
+        {
+          "name": "Bikash Paribahan",
+          "route": "Sign Board ⇄ Matuail ⇄ Rayerbag ⇄ Shonir Akhra ⇄ Jatrabari ⇄ Sayedabad ⇄ Gulistan ⇄ Chankhar Pul ⇄ Bakshi Bazar ⇄ Azimpur ⇄ Nilkhet ⇄ New Market ⇄ City College ⇄ Kalabagan ⇄ Dhanmondi 32 ⇄ Dhanmondi 27 ⇄ Khamar Bari ⇄ Farmgate ⇄ Jahangir Gate ⇄ Mohakhali ⇄ Chairman Bari ⇄ Sainik Club ⇄ Banani ⇄ Kakali ⇄ Staff Road ⇄ MES ⇄ Shewra ⇄ Kuril Bishwa Road ⇄ Khilkhet ⇄ Airport ⇄ Jashimuddin (Uttara) ⇄ Rajlakshmi ⇄ Azampur ⇄ House Building ⇄ Abdullahpur ⇄ Kamarpara – Dhour",
+          "url": "https://nishiddho.com/bikash-paribahan-bus-route-%E0%A6%AC%E0%A6%BF%E0%A6%95%E0%A6%BE%E0%A6%B6-%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A6%B9%E0%A6%A8-%E0%A6%AC%E0%A6%BE%E0%A6%B8/#google_vignette"
+        },
+        {
+          "name": "Safety Druti",
+          "route": "Mirpur 12 ⇄ Pallabi ⇄ Purobi ⇄ Mirpur 11 ⇄ Mirpur 10 ⇄ Kazipara ⇄ Shewrapara ⇄ Taltola ⇄ Agargaon ⇄ Khamar Bari ⇄ Dhanmondi 27 ⇄ Dhanmondi 32 ⇄ Kalabagan ⇄ City College ⇄ New Market ⇄ Nilkhet ⇄ Azimpur",
+          "url": "https://nishiddho.com/safety-druti-bus-route-%e0%a6%b8%e0%a7%87%e0%a6%ab%e0%a6%9f%e0%a6%bf-%e0%a6%a6%e0%a7%8d%e0%a6%b0%e0%a7%81%e0%a6%a4%e0%a6%bf-%e0%a6%ac%e0%a6%be%e0%a6%b8/"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "statement": "Which buses goes from Azimpur to Azampur?",
+        "options": [
+          "Bikash Paribahan and Safety Druti",
+          "Safety Druti and VIP 27",
+          "VIP 27 and Bikash Paribahan"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  {
+    "context": {
+      "places": {
+        "home": {
+          "location_name": "Home",
+          "address": "House 38/1 (3rd Floor, Indira Rd, Dhaka 1215)",
+          "coordinates": {
+            "latitude": 23.7563938737776,
+            "longitude": 90.38461215181246
+          },
+          "url": "https://www.google.com/maps/place/Headoffice+Communication/@23.7562818,90.3843183,20.3z/data=!4m14!1m7!3m6!1s0x3755b8aeb8bb1e65:0x796c2cbe75503f54!2s38+Indira+Rd,+Dhaka+1215!3b1!8m2!3d23.7561835!4d90.3807171!3m5!1s0x3755b8a8a59b695b:0x75bfa00b35f3c5a0!8m2!3d23.7563756!4d90.3846132!16s%2Fg%2F1tgjjnd5?entry=ttu"
+        },
+        "labaid_specialized_hospital": {
+          "location_name": "LABAID Specialized Hospital",
+          "address": "House-1 and, 6, Road No. 4, Dhaka 1205",
+          "coordinates": {
+            "latitude": 23.742329395566834,
+            "longitude": 90.3830315509804
+          },
+          "opening_hours": {
+            "Monday": "Open 24 hours",
+            "Tuesday": "Open 24 hours",
+            "Wednesday": "Open 24 hours",
+            "Thursday": "Open 24 hours",
+            "Friday": "Open 24 hours",
+            "Saturday": "Open 24 hours",
+            "Sunday": "Open 24 hours"
+          },
+          "url": "https://www.google.com/maps/place/LABAID+Specialized+Hospital/@23.7421428,90.3804137,17z/data=!3m2!4b1!5s0x3755b8bae2fa9fc9:0xea89e543505dc644!4m6!3m5!1s0x3755b8b7a02be491:0x45a9f97c4d06d4f9!8m2!3d23.7421428!4d90.382994!16s%2Fg%2F11h9y65l39?entry=ttu"
+        },
+        "sultans_dine": {
+          "location_name": "Sultan's Dine",
+          "address": "146/G (Old), 59, Green Akshay Plaza, 1st Floor, New Satmasjid Road, Dhaka 1209",
+          "coordinates": {
+            "latitude": 23.739079220889153,
+            "longitude": 90.3754086328638
+          },
+          "opening_hours": {
+            "Monday": "12:00 PM - 10:00 PM",
+            "Tuesday": "12:00 PM - 10:00 PM",
+            "Wednesday": "12:00 PM - 10:00 PM",
+            "Thursday": "12:00 PM - 10:00 PM",
+            "Friday": "12:00 PM - 10:00 PM",
+            "Saturday": "12:00 PM - 10:00 PM",
+            "Sunday": "12:00 PM - 10:00 PM"
+          },
+          "url": "https://www.google.com/maps/place/Sultan's+Dine/@23.7388681,90.3728176,17z/data=!3m2!4b1!5s0x3755c0e3f4df7c17:0xa3d4e0371190eb4e!4m6!3m5!1s0x3755b8caa7e60837:0xf47efcf6f49b50c5!8m2!3d23.7388632!4d90.3753979!16s%2Fg%2F11g6vjjs4v?entry=ttu"
+        }
+      },
+      "routes": {
+        "home": {
+          "labaid_specialized_hospital": {
+            "time": "30 minutes",
+            "url": "https://www.google.com/maps/place/LABAID+Specialized+Hospital/@23.7421428,90.3804137,17z/data=!3m2!4b1!5s0x3755b8bae2fa9fc9:0xea89e543505dc644!4m6!3m5!1s0x3755b8b7a02be491:0x45a9f97c4d06d4f9!8m2!3d23.7421428!4d90.382994!16s%2Fg%2F11h9y65l39?entry=ttu"
+          },
+          "sultans_dine": {
+            "time": "45 minutes",
+            "url": "https://www.google.com/maps/dir/''/146%2FG+(Old),+59,+Sultan's+Dine,+Green+Akshay+Plaza,+Satmasjid+Road,+Dacca/@23.7473329,90.3690797,15z/data=!3m2!4b1!5s0x3755b8bae2fa9fc9:0xea89e543505dc644!4m14!4m13!1m5!1m1!1s0x3755b8a8a59b695b:0x75bfa00b35f3c5a0!2m2!1d90.3846132!2d23.7563756!1m5!1m1!1s0x3755b8caa7e60837:0xf47efcf6f49b50c5!2m2!1d90.3753979!2d23.7388632!3e3?entry=ttu"
+          }
+        },
+        "labaid_specialized_hospital": {
+          "sultans_dine": { "time": "20 minutes" },
+          "home": {
+            "time": "45 minutes",
+            "url": "https://www.google.com/maps/dir/LABAID+Specialized+Hospital,+Road+Number+4,+Dacca/Headoffice+Communication+%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8+%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8/@23.7496679,90.3718115,15z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3755b8b7a02be491:0x45a9f97c4d06d4f9!2m2!1d90.382994!2d23.7421428!1m5!1m1!1s0x3755b8a8a59b695b:0x75bfa00b35f3c5a0!2m2!1d90.3846132!2d23.7563756!3e0?entry=ttu"
+          }
+        },
+        "sultans_dine": {
+          "home": {
+            "time": "1 hour",
+            "url": "https://www.google.com/maps/dir/146%2FG+(Old),+59,+Sultan's+Dine,+Green+Akshay+Plaza,+Satmasjid+Road,+Dacca/Headoffice+Communication+%E0%A6%B9%E0%A7%87%E0%A6%A1%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8+%E0%A6%95%E0%A6%AE%E0%A6%BF%E0%A6%89%E0%A6%A8%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B6%E0%A6%A8/@23.7475117,90.369549,15.29z/data=!4m14!4m13!1m5!1m1!1s0x3755b8caa7e60837:0xf47efcf6f49b50c5!2m2!1d90.3753979!2d23.7388632!1m5!1m1!1s0x3755b8a8a59b695b:0x75bfa00b35f3c5a0!2m2!1d90.3846132!2d23.7563756!3e3?entry=ttu"
+          },
+          "labaid_specialized_hospital": {
+            "time": "40 minutes"
+          }
+        }
+      }
+    },
+    "questions": [
+      {
+        "statement": "I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8 pm, where should I go first so that I can reach everywhere on time?",
+        "options": ["LABAID", "Sultan's Dine"],
+        "answer": 2,
+        "explanation": "To reach everywhere on time, you should go to Sultan's Dine first. 8:00 PM: Leave home and go to Sultan's Dine (45 minutes). 8:45 PM: Arrive at Sultan's Dine and have dinner (1 hour). 9:45 PM: Leave Sultan's Dine and go to LABAID Specialized Hospital (20 minutes). 10:05 PM: Arrive at LABAID Specialized Hospital and stay for half an hour. 10:35 PM: Leave LABAID Specialized Hospital and go home (45 minutes). 11:20 PM: Arrive home If you go to LABAID Specialized Hospital first, you will not have enough time to go to Sultan's Dine and have dinner before they close at 10 PM."
+      },
+      {
+        "statement": "I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8 pm, where should I go first so that I can leave each place before it closes?",
+        "options": ["LABAID", "Sultan's Dine"],
+        "answer": 2
+      },
+      {
+        "statement": "I need to go to LABAID Specialized hospital. I will stay there for half an hour. But I also need to go to Sultan's Dine. I will have my dinner there, which will take approximately an hour. If I leave home at 8 pm, where should I go first so that I can leave Sultan's dine before 10pm?",
+        "options": ["LABAID", "Sultan's Dine"],
+        "answer": 2
+      },
+      {
+        "statement": "If I want to visit LABAID Specialized Hospital first, stay for half an hour, and then go to Sultan's Dine for dinner, leaving home at 8 pm, will I be able to reach both places on time?",
+        "options": ["Yes", "No"],
+        "answer": 2
+      },
+      {
+        "statement": "I plan to leave home at 7:30 pm. If I go to Sultan's Dine first and spend 1 hour for dinner, then head to LABAID Specialized Hospital for half an hour, will I be able to reach both places and return home by 10:30 pm?",
+        "options": ["Yes", "No"],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "context": {
+      "title": "Coffee shops on the left side of the road, on the route from Khamarbari to Azimpur.",
+      "coffee_shops": [
+        {
+          "name": "CoffeeGraphy BD",
+          "url": "https://www.google.com/maps/place/CoffeeGraphy+BD/@23.752172,90.357357,14z/data=!4m10!1m2!2m1!1sdhanmondi+27+coffee+shop!3m6!1s0x3755b9b3c4c547f1:0xc2b7302d482e7e45!8m2!3d23.7521713!4d90.379419!15sChhkaGFubW9uZGkgMjcgY29mZmVlIHNob3BaFSITZGhhbm1vbmRpIDI3IGNvZmZlZZIBC2NvZmZlZV9zaG9wmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVU5sY1dKVWRuZEJSUkFC4AEA!16s%2Fg%2F11rxsb5_jl?entry=ttu",
+          "rating": 4.6
+        },
+        {
+          "name": "Wellness Cafe Dhanmondi",
+          "url": "https://www.google.com/maps/place/Wellness+Cafe+Dhanmondi/@23.742268,90.3468096,14z/data=!4m10!1m2!2m1!1sdhanmondi+27+coffee+shop!3m6!1s0x3755b9308292defb:0x8a4e0988586e8b4e!8m2!3d23.7422672!4d90.3828583!15sChhkaGFubW9uZGkgMjcgY29mZmVlIHNob3BaFSITZGhhbm1vbmRpIDI3IGNvZmZlZZIBC2NvZmZlZV9zaG9wmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5hT1VwUE1FWkJFQUXgAQA!16s%2Fg%2F11tnmx73pn?entry=ttu",
+          "rating": 4.5
+        },
+        {
+          "name": "Coffee Buzz",
+          "url": "https://www.google.com/maps/place/Coffee+Buzz/@23.7516711,90.3661537,15z/data=!4m10!1m2!2m1!1sdhanmondi+32+coffee+shop!3m6!1s0x3755b9ffa01d62cb:0x3ddc407248737a4e!8m2!3d23.7516708!4d90.3792714!15sChhkaGFubW9uZGkgMzIgY29mZmVlIHNob3BaFSITZGhhbm1vbmRpIDMyIGNvZmZlZZIBBGNhZmWaASRDaGREU1VoTk1HOW5TMFZKUTBGblNVUXlkR1J1TkhsM1JSQULgAQA!16s%2Fg%2F11g1y2n0rr?entry=ttu",
+          "rating": 4.3
+        },
+        {
+          "name": "Pinewood",
+          "url": "https://www.google.com/maps/place/Pinewood:+Cafe+%2B+Kitchen+Dhanmondi,+Road-6/@23.7442936,90.3660893,15z/data=!4m10!1m2!2m1!1sdhanmondi+32+coffee+shop!3m6!1s0x3755b975f4654c39:0xf80202353097bc6a!8m2!3d23.7442939!4d90.3841138!15sChhkaGFubW9uZGkgMzIgY29mZmVlIHNob3BaFSITZGhhbm1vbmRpIDMyIGNvZmZlZZIBEndlc3Rlcm5fcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSUGEzRlFRVnBCRUFF4AEA!16s%2Fg%2F11n15sz_yv?entry=ttu",
+          "rating": 4.3
+        },
+        {
+          "name": "Bensho | Coffee & Brunch",
+          "url": "https://www.google.com/maps/place/Bensho+%7C+Coffee+%26+Brunch/@23.7507566,90.371756,16z/data=!4m10!1m2!2m1!1skalabagan+coffee+shop!3m6!1s0x3755b9dde2b1bc41:0xb5ab4551483d1bef!8m2!3d23.7507569!4d90.378909!15sChVrYWxhYmFnYW4gY29mZmVlIHNob3BaEiIQa2FsYWJhZ2FuIGNvZmZlZZIBBGNhZmXgAQA!16s%2Fg%2F11tghl25fg?entry=ttu",
+          "rating": 4.1
+        },
+        {
+          "name": "Cha & Chill Kalabagan",
+          "url": "https://www.google.com/maps/place/Cha+%26+Chill+Kalabagan/@23.7507947,90.3763322,17z/data=!4m10!1m2!2m1!1skalabagan+coffee+shop!3m6!1s0x3755b9661fd2298d:0x44d10ce37e28cf4b!8m2!3d23.7507948!4d90.3790118!15sChVrYWxhYmFnYW4gY29mZmVlIHNob3BaEiIQa2FsYWJhZ2FuIGNvZmZlZZIBBGNhZmXgAQA!16s%2Fg%2F11tf7dj3cf?entry=ttu",
+          "rating": 3.9
+        }
+      ]
+    },
+    "questions": [
+      {
+        "statement": "I am going from Khamarbari to Azimpur by car. Find a good coffee shop based on rating on the left side of the road.",
+        "options": [
+          "CoffeeGraphy BD",
+          "Wellness Cafe Dhanmondi",
+          "Coffee Buzz",
+          "Pinewood",
+          "Bensho | Coffee & Brunch",
+          "Cha & Chill Kalabagan"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "context": {
+      "restaurants": [
+        {
+          "name": "Chillox",
+          "rating": 4.3,
+          "total_rating": 8740,
+          "type": "Fast food restaurant",
+          "address": "Level - 3, AMM Center, 56/A Rd 3A, Dhaka 1209",
+          "mobile": "09678361361",
+          "coordinates": {
+            "latitude": 23.7400405,
+            "longitude": 90.3745813
+          },
+          "reviews": [
+            {
+              "rating": 4,
+              "text": "Chillox has truly gotten very good over the years. If you like the saucy burgers then you can ask for extra sauce and if you like the plain ones (my choice) you can ask for less or no sauce. When you take less sauce you can get the true burger flavor and it's actually quite good. Their fish tots, in particular, are a standout. For the price, they are incredible. Their chicken fingers are filled with cheese, and their wings I've heard are nice. They even have a dessert menu now which is actually very decent. They have increased their prices substantially. They are no longer the cheap good burger place, a filling meal would cost around 500 taka per person. One other issue I personally have can be the crowd. Chillox is a bit of a staple for young kids and although they can normally be calm, sometimes it can get quite loud, especially near their smoking zone. If you're looking to go here at a good time with fewer people then definitely go during lunchtime."
+            },
+            {
+              "rating": 3,
+              "text": "It's so crowded and always in a rush. They are serving table side ketchup though. Food used to taste better. Chicken wings (pankha combo) were good. Fries are still good as before."
+            },
+            {
+              "rating": 3,
+              "text": "The food was delicious in their unique concept. It’s not an authentic burger place to go for. Mostly a concept of Bangladeshi burger style. The crowd was too much on a normal day and had to wait for seats. Another drawback is the honey chicken wings were too sweet which made me feel like eating a dessert."
+            }
+          ]
+        },
+        {
+          "name": "Lailaty",
+          "rating": 4.2,
+          "total_rating": 1757,
+          "type": "Fast food restaurant",
+          "address": "Satmasjid Rd, House#54/1, Road#3/A, Dhaka 1205",
+          "mobile": "01715351049",
+          "coordinates": {
+            "latitude": 23.7400717,
+            "longitude": 90.3746308
+          },
+          "reviews": [
+            {
+              "rating": 5,
+              "text": "One of the oldest budget-friendly restaurants across Dhanmondi. For the last twenty years, they never let me down whenever I had any food from here. You can never go wrong about their food quality. Regarded quantity to a whole new level in terms of price, to be honest. Service is basically not the hype but what else would you need as long as your tummy gets satisfied? Always go for set menus that include fried rice because that’s fulfilling and relishing according to my buds. Please spare some extra time during evenings when it gets very busy + noisy. Hence takeaways are recommended while it’s too crowded and you’re possibly struggling to get a seat."
+            },
+            {
+              "rating": 5,
+              "text": "Always 1st on my restaurant list here in Dhanmondi. 100/100 food, service, atmosphere, behavior, taste, everything."
+            },
+            {
+              "rating": 2,
+              "text": "Their food was better. Nowadays, not so much. The quality of food has been downgraded significantly. I had a horrible experience and wasted most of the food."
+            }
+          ]
+        },
+        {
+          "name": "Cafe Darbar Dhanmondi",
+          "rating": 4.1,
+          "total_rating": 737,
+          "type": "Family restaurant",
+          "address": "Bikalpa Tower, 74, Satmosjid Road, Rd No 5/A, Dhaka 1205",
+          "mobile": "01678911911",
+          "coordinates": {
+            "latitude": 23.7415199,
+            "longitude": 90.373994
+          },
+          "reviews": [
+            {
+              "rating": 3,
+              "text": "Cafe Darbar offers a delightful dining experience with a mix of rooftop and indoor seating. The chowmein at this establishment stands out. While the chicken-baked pasta was only average, the overall variety on the menu caters to diverse preferences. The attentive waitstaff enhance the experience with their courteous behavior, ensuring prompt service. Moreover, Cafe Darbar is an affordable choice for those looking for a budget-friendly place."
+            },
+            {
+              "rating": 4,
+              "text": "We went there on the coldest evening, on the rooftop segment, they offered us welcome drink shots. And then we ordered pizza, chef's special chicken pizza. It was very tasty and served hot to us. Overall, we liked the restaurant and food. Hope to visit again in sha Allah."
+            },
+            {
+              "rating": 4,
+              "text": "I have been going to Cafe Darbar for over 7 years now. I had 3 birthdays in a row there at some point. Their pasta is widely regarded as the best in Dhanmondi. With time I feel as though their pasta has lost a bit of its previous flavor, but it's still decent most days. Their cream of mushroom soup is the best one I've had in Dhanmondi so far. I've heard very good things about their biryani too. The location is incredible. From the very large balcony, there is a stunning view of Dhanmondi lake. However, I feel as though their interior could be way better. Their interior is straight up bad. Not even decent, it's actually bad. If you go, definitely sit on the balcony for the best experience. The staff has always been very friendly and accommodating. Only one bad experience with a new waiter in the past 7 years."
+            }
+          ],
+          "menu_items": ["Coffee", "Pizza", "Desserts", "Burgers"]
+        },
+        {
+          "name": "Crimson Cup",
+          "rating": 4.3,
+          "total_rating": 2190,
+          "type": "Coffee Shop",
+          "address": "Rangs Fortune Square, House no #32, সড়ক ০২, Dhaka 1205",
+          "mobile": "01936000273",
+          "coordinates": {
+            "latitude": 23.7386482,
+            "longitude": 90.3782743
+          },
+          "reviews": [
+            {
+              "rating": 1,
+              "text": "These are the espresso items titled Crimson Cup Mocha and Cafe Mocha from Crimson Cup. It was the first time for me at Crimson Cup. I was really shocked. The flavors of two items were really frustrating to me. After having these, I felt nausea honestly. I will never dare to try these two items surely. But I have a desire to experience the frozen Crimson Cup Mocha and Cafe Mocha. These will be great hopefully because I received many positive reviews about these two items."
+            },
+            {
+              "rating": 5,
+              "text": "The best coffee of the town. The Crimson cup mocha with whipped cream is the best item. The coffee, the food, the service are great. Also, the atmosphere, the community are the best ever. This place is so lovely."
+            },
+            {
+              "rating": 4,
+              "text": "Good Service, with nice disposable cups. Smoking zone available."
+            }
+          ]
+        }
+      ],
+      "road_travel": {
+        "start": {
+          "latitude": "23°44'20.0\"N",
+          "longitude": "90°22'32.4\"E"
+        },
+        "middle_points": [
+          {
+            "latitude": "23°44'25.3\"N",
+            "longitude": "90°22'29.8\"E"
+          },
+          {
+            "latitude": "23°44'29.5\"N",
+            "longitude": "90°22'27.4\"E"
+          },
+          {
+            "latitude": "23°44'33.1\"N",
+            "longitude": "90°22'26.0\"E"
+          },
+          {
+            "latitude": "23°44'40.3\"N",
+            "longitude": "90°22'21.0\"E"
+          }
+        ],
+        "end": {
+          "latitude": "23°44'43.9\"N",
+          "longitude": "90°22'18.4\"E"
+        }
+      }
+    },
+    "questions": [
+      {
+        "statement": "Find a good coffee shop on the left side of the road.",
+        "options": [
+          "Crimson Cup",
+          "Lailaty",
+          "Chillox",
+          "Cafe Darbar Dhanmondi"
+        ],
+        "answer": 4
+      }
+    ]
+  },
+  {
+    "context": {
+      "places": {
+        "home": {
+          "location_name": "Home",
+          "address": "House 38/1 (3rd Floor, Indira Rd, Dhaka 1215)",
+          "coordinates": {
+            "latitude": 23.7563938737776,
+            "longitude": 90.38461215181246
+          }
+        },
+        "bangabandhu_military_museum": {
+          "location_name": "Bangabandhu Military Museum",
+          "address": "Bijoy Sarani, Dhaka 1215",
+          "coordinates": {
+            "latitude": 23.764264724955037,
+            "longitude": 90.3854663180154
+          },
+          "opening_hours": "3:00 PM - 8:00 PM"
+        },
+        "multiplan_center": {
+          "location_name": "Multiplan Center",
+          "address": "69, 71 New Elephant Rd, Dhaka 1205",
+          "coordinates": {
+            "latitude": 23.739049401048632,
+            "longitude": 90.38553213025901
+          },
+          "opening_hours": "10:00 AM - 8:00 PM"
+        },
+        "sonali_bank_buet_branch": {
+          "location_name": "Sonali Bank PLC, BUET Branch",
+          "address": "Zahir Raihan Rd, Dhaka",
+          "coordinates": {
+            "latitude": 23.727749403118075,
+            "longitude": 90.3900845952561
+          },
+          "opening_hours": "10:00 AM - 3:30 PM"
+        }
+      },
+      "routes": {
+        "home": {
+          "to": {
+            "multiplan_center": { "time": "35 minutes" },
+            "sonali_bank": { "time": "50 minutes" },
+            "museum": { "time": "25 minutes" }
+          }
+        },
+        "multiplan_center": {
+          "to": {
+            "sonali_bank": { "time": "25 minutes" },
+            "museum": { "time": "45 minutes" },
+            "home": { "time": "45 minutes" }
+          }
+        },
+        "sonali_bank": {
+          "to": {
+            "multiplan_center": { "time": "35 minutes" },
+            "museum": { "time": "50 minutes" },
+            "home": { "time": "55 minutes" }
+          }
+        },
+        "museum": {
+          "to": {
+            "multiplan_center": { "time": "40 minutes" },
+            "sonali_bank": { "time": "50 minutes" },
+            "home": { "time": "50 minutes" }
+          }
+        }
+      }
+    },
+    "questions": [
+      {
+        "statement": "At tomorrow 3 pm I will leave my house. I need to go to Military Museum to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). Schedule my day If I visit the places in this order: First Military Museum, then Multiplan Center, then Sonali bank and then come back home.",
+        "options": [
+          "Military Museum (3:00 PM) -> Military Museum (3:40 PM) -> Sonali Bank (4:30 PM) -> Home (5:20 PM)",
+          "Military Museum (3:35 PM) -> Military Museum (3:50 PM) -> Sonali Bank (4:30 PM) -> Home (5:15 PM)",
+          "Military Museum (3.35 PM) -> Military Museum (4.20 PM) -> Sonali Bank (5.45 PM) -> Home (8.10 PM)",
+          "Military Museum (3:25 PM) -> Military Museum (6:05 PM) -> Sonali Bank (6:50 PM) -> Home (8:15 PM)"
+        ],
+        "answer": 4
+      },
+      {
+        "statement": "At tomorrow 3 pm I will leave my house. I need to go to Military Museum to visit with friends for 2 hours and Multiplan Center to buy a keyboard (which will take 20 minutes) and Sonali Bank, BUET to receive my check book (which will take 30 minutes). In which order I should visit the places so that I reach there on time and come back home as early as possible.",
+        "options": [
+          "Home -> Somali Bank -> Military Museum -> Multiplan Center -> Home",
+          "Home -> Multiplan Center -> Sonali Bank -> Military Museum -> Home",
+          "Home -> Military Museum -> Multiplan Center -> Sonali Bank -> Home",
+          "Home -> Military Museum -> Sonali Bank -> Multiplan Center -> Home"
+        ],
+        "answer": 2
+      },
+      {
+        "statement": "Tomorrow, I plan to visit the Military Museum to spend 2 hours with friends, the Multiplan Center to purchase a keyboard (which will take 20 minutes), and Sonali Bank, BUET, to receive my checkbook (which will take 30 minutes). I intend to visit these places in the following order: Multiplan Center first, followed by Sonali Bank, and then the Military Museum. Considering this itinerary, what is the latest possible time I can leave home so that I can still depart from the Military Museum before it closes?",
+        "options": ["3:00 PM", "3:15 PM", "2:30 PM", "2:45 PM"],
+        "answer": 2
+      }
+    ]
+  }
+]
